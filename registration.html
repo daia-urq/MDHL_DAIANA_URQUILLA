@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./asset/LogoMightyDucks-01.png">
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Registration</title>
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Mighty Duckd Hockey League</h1>
+        </div>
+
+        <div class="logo">
+            <img src="./asset/LogoMightyDucks-01.png" alt="logo Mighty Ducks hockey league">
+        </div>
+
+        <nav>
+            <a href="./index2.html">Home</a>
+            <a href="./about2.html">About</a>
+            <a href="./game_info.html">Game Information</a>
+            <a href="./rules.html">Rules & Policies</a>
+            <a href="#">Registration Form</a>
+            <a href="./contact2.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="titulo2">
+            <h3 class="tag">Registration</h3>
+        </div>
+
+        <div class="eventos">
+            <!-- <div>
+                <h4>August 4</h4>
+                <p>MSDK Fundraiser</p>
+            </div> -->
+            <div class="form">
+                <h4>Registration Form</h4>
+
+                <form action="./show_data.html" method="GET">
+                    <label class="light" for="firstname">Player's First Name:</label><br>
+                    <input type="text" name="firstname" id="firstname">
+                    <br><br>
+                    <label class="light" for="lastname">Last Name:</label><br>
+                    <input type="text" name="lastname" id="lastname">
+                    <br><br>
+                    <label class="light" for="address">Street Address:</label><br>
+                    <input type="text" name="address" id="address">
+                    <br><br>
+                    <label class="light" for="city">City:</label><br>
+                    <input type="text" name="city" id="city">
+                    <br><br>
+                    <label class="light" for="zipcode">Zip Code:</label><br>
+                    <input type="text" name="zipcode" id="zipcode">
+                    <br><br>
+                    <label class="light" for="birth">Birth Date(mm/dd/yyyy):</label>
+                    <input type="date" name="birth" id="birth">
+                    <br><br>
+                    <label class="light" >Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male" checked>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" checked>
+                    <label for="female">Female</label>
+                    <br><br>
+                    <label class="light" >Grade:</label>
+                    <input type="radio" id="preschool" name="grade" value="preschool" checked>
+                    <label for="preschool">Pre-School</label>
+
+                    <input type="radio" id="first" name="grade" value="first" checked>
+                    <label for="first">1st</label>
+
+                    <input type="radio" id="second" name="grade" value="second" checked>
+                    <label for="second">2st</label>
+
+                    <input type="radio" id="third" name="grade" value="third" checked>
+                    <label for="third">3st</label>
+
+                    <input type="radio" id="fourth" name="grade" value="fourth" checked>
+                    <label for="fourth">4st</label>
+
+                    <input type="radio" id="fifth" name="grade" value="fifth" checked>
+                    <label for="fifth">5st</label>
+                    <br><br><br><hr><br>
+
+                    <label class="bold">Which elelemntary school do you live near?</label>
+                    <br><br> 
+                    <label class="light" for="closestScholl">Closest School:</label>
+                    <select name="school" id="closestScholl">
+                        <option value="">Please choose an option</option>
+                        <option value="aj">Aj Katzenmaier</option>
+                        <option value="green">Greenbay</option>
+                        <option value="howard">Howard A Yeager</option>
+                        <option value="marjo">Marjorie P Hart</option>
+                        <option value="north">North Elementary</option>
+                        <option value="south">South Elementary</option>
+                    </select>
+                    <br><br><br><hr><br>
+                    <label class="bold">What position(s) do uo normally play? (check all that apply)</label>
+                    <br><br>
+
+                    <input type="checkbox" id="forward" name="forward" value="forward">
+                    <label for="forward">Forward</label>
+
+                    <input type="checkbox" id="defense" name="defense" value="defense">
+                    <label for="defense">Defense</label>
+
+                    <input type="checkbox" id="midfield" name="midfield" value="midfield">
+                    <label for="midfield">Midfield</label>
+
+                    <input type="checkbox" id="goalkeeper" name="goalkeeper" value="goalkeeper">
+                    <label for="goalkeeper">Goalkeeper</label>
+                    <br><br><br><hr><br>
+
+                    <label class="light"  for="uniform">Uniform Size:</label>
+                    <select name="uniform" id="uniform">
+                        <option value="">Please choose an option</option>
+                        <option value="ya">Youth Small</option>
+                        <option value="ym">Youth Medium</option>
+                        <option value="yl">Youth Large</option>
+                        <option value="s">Small</option>
+                        <option value="m">Medium</option>
+                        <option value="l">Large</option>
+                        <option value="el">Extra-Large</option>
+                    </select>
+                    <br><br><br><hr>
+
+                    <p>
+                        I. the parent or guardian of the minor registrant, agree that the registrant and i will abide by
+                        all
+                        the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
+                        injury associated with hockey and in consideration for the "League" accepting the registrant for
+                        its
+                        hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL,
+                        their
+                        employees and associated personnel and volunteers, including the facilities used for practices
+                        and
+                        games, against any claim by or on behalf of the registrant as a result of the registranst's
+                        participation in the programand/orbeing transported to from MDHL sponsored activities, which
+                        trasportation.<br>
+                        By entering your name below, I here by agree and authorixe the aboove. In addition, by entering
+                        your
+                        name below. I also acknowledge that I have read the cancellation policy and agree to its terms.
+                    </p>
+                    <br>
+
+                    <label class="light" for="signature">Parent/Guardian Signature:</label><br>
+                    <input type="text" name="signature" id="signature"><br><br>
+                    <label class="light" for="date">Date(mm/dd/yyyy):</label>
+                    <input type="date" name="date" id="date">
+                    <br>
+                    <br><br><hr><br><button class="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="contimg">
+            <img src="./asset/jugadores-hockey.png" alt="jugador de hockey">
+            <img src="./asset/jugadores-hockey1.png" alt="jugadores de hockey">
+            <img src="./asset/jugadores-hockey2.png" alt="jugadores de  de hockey">
+            <img src="./asset/jugadores-hockey3.png" alt="jugadores de  de hockey">
+        </div>
+
+    </main>
+    <footer>
+        <h4>
+            Mighty Duckd Hockey League &reg;
+        </h4>
+    </footer>
+</body>
+
+</html>
