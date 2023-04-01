@@ -21,27 +21,18 @@ html {
 
 header {
     background-image: linear-gradient(to right, #f5f5f5, #ececec);
-    min-height: 30vh;
+    min-height: 30vh;    
     position: relative;
 }
 
-.logo img {
-    max-height: 20vh;
-}
 
-.logo {
-    padding: 0.5rem;
-    display: inline-block;
-    margin-left: 2rem;
-    margin-bottom: 1.5rem;
-}
 
 .titulo {
     text-align: center;
     background-image: linear-gradient(to top, #303030, #2b2828, #080808);
     display: block;
-    min-height: 45px;
-    font-size: 1.5em;
+    min-height: 40px;
+    font-size: 0.8em;
     /* box-shadow: 5px 5px 10px #A8B1B8; */
 }
 
@@ -57,15 +48,18 @@ nav {
     bottom: 0rem;
     right: 0rem;
     margin-right: 1rem;
+    
 }
 
 nav>a {
     text-decoration: none;
     color: #006B65;
     padding: 0.5rem;
-    font-size: 1.5em;
+    font-size: 1em;
     border-radius: 1rem 1rem 0rem 0rem;
 }
+
+
 
 a[href="#"] {
     color: #F3D129;
@@ -80,9 +74,9 @@ main {
     display: flex;
     flex-direction: row;
     color: #004642;
-    font-size: 1.3em;
-    line-height: 2.5rem;
+    font-size: 0.9em;    
     list-style-position: inside;
+    width: 100vw;
 }
 
 /* IMAGENES DE IZQUIERDA */
@@ -90,7 +84,7 @@ main {
     object-fit: cover;
     border-radius: 2rem;
     box-shadow: 5px 5px 10px #A8B1B8;
-    max-width: 20vw;
+    max-width: 18vw;
     margin: 1rem;
     opacity: 0.5;
 }
@@ -382,6 +376,18 @@ footer {
     justify-content: center;
 }
 
+.logo img {
+    max-height: 16vh;
+}
+
+.logo {
+    padding: 0.5rem;
+    display: inline-block;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
 @media screen and (max-width:1441px) {
 
     .titulo,
@@ -604,22 +610,30 @@ footer {
   
     .titulo2 {
         display: table;
-        min-width: 50vw;
+        min-width: 70vw;
         min-height: 5vw;
+        font-size: 0.7em;
     }
 
     .titulo2>.tag {
         padding: 1rem;
     }
- 
+    .logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 3rem;
+        padding-bottom: 4rem;
+      
+    }
     
     .logo img {
-        max-height: 22vh;
+        max-height: 14vh;
     }
     
     .titulo {         
-        min-height: 45px;
-        font-size: 1.5em;
+        min-height: 30px;
+        font-size: 0.9em;
     }
        
     header{
@@ -629,9 +643,10 @@ footer {
 
     nav {      
         display: flex;
-        flex-direction: column;  
+        flex-wrap: wrap;
+        flex-direction: row;  
         justify-content: center;   
-        align-items: center;
+        align-items: end;
         bottom: 0rem;
         right: 0rem;
         margin: 0rem;
